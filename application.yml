@@ -1,0 +1,15 @@
+﻿spring:
+   profiles:
+     active:
+     - dev
+---
+spring:
+   profiles:  dev
+     application:  
+         name:  springcloudlearn-config-dev
+---
+spring:
+   profiles:  test
+     application:  
+         name:  springcloudlearn-config-test
+   
